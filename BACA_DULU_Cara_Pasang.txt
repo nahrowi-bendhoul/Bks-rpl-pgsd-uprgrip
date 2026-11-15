@@ -1,0 +1,26 @@
+BUKU KONSULTASI SKRIPSI: VERSI TANPA SERVER
+===========================================
+Tidak ada server, akun, atau kata sandi. Cukup taruh folder ini di hosting statis gratis.
+Semua berkas diunggah bersama-sama: index.html, manifest.webmanifest, sw.js, dan semua gambar ikon.
+
+TAYANG (pilih satu, gratis)
+  A. Netlify Drop: buka app.netlify.com/drop, seret seluruh folder ini ke halaman itu. Alamat jadi, misalnya https://nama.netlify.app
+  B. GitHub Pages: buat repositori, unggah semua berkas, aktifkan Settings > Pages.
+  C. Cloudflare Pages: Direct Upload, unggah folder ini.
+Bagikan alamatnya ke dosen dan mahasiswa. Gunakan satu alamat yang sama dan jangan diganti.
+
+CARA PAKAI
+  Pertama kali dibuka, pilih sekali: "Saya Mahasiswa" atau "Saya Dosen".
+  Dosen:     Tulis saran > pilih atau isi mahasiswa > tulis saran > beri paraf > Kirim dan buka WhatsApp.
+  Mahasiswa: isi Data Induk (NIM) sekali. Saat dosen mengirim pesan WhatsApp, ketuk tautan di dalamnya.
+             Balasan masuk sendiri ke Kartu Bimbingan, lalu ketuk pesan di atas layar untuk melihatnya.
+
+PENTING
+  - Isian tersimpan di perangkat dan peramban masing-masing. Buka buku selalu lewat peramban yang sama (Chrome di Android, Safari di iPhone).
+    Tidak perlu dipasang. Bila dipasang, di iPhone isiannya terpisah dari Safari.
+  - Tautan balasan memuat isi balasan itu sendiri. Siapa pun yang memegang tautannya bisa membukanya, tetapi hanya masuk ke buku yang NIM-nya sama.
+  - Tanpa server, keaslian balasan tidak bisa dibuktikan secara teknis. Periksa saat bertemu dosen. Untuk bukti kuat, pakai paket server.
+  - Cadangkan buku secara berkala: Lainnya > Simpan.
+  - Bila data peramban terhapus atau ponsel hilang, isian ikut hilang.
+
+MEMPERBARUI: ganti index.html (dan sw.js) di tempat tayang. Pengguna yang online mendapat versi baru otomatis.
