@@ -1062,7 +1062,9 @@ async function terimaPl(pl){
  const pg=insertEntry(e);
  if(!pg)return{st:"full",e};
  data["@imp"]=JSON.stringify(imported().concat([e._id]));save();
+ isiPemb(e);
  return{st:"ok",pg,e}}
+function isiPemb(e){try{const k={P1:"p1",P2:"p2",PA:"pa"}[e.peran];if(!k||!e.dosen)return;const ks=MAP[k];if(ks.some(x=>data[x]))return;ks.forEach(x=>{data[x]=e.dosen});refreshFields();save()}catch(_){}}
 async function readLink(){
  const m=/^#d=([zr])([A-Za-z0-9_-]+)$/.exec(location.hash);if(!m)return;
  try{history.replaceState(null,"",location.pathname+location.search)}catch(_){}
